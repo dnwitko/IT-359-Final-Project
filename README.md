@@ -1,7 +1,7 @@
 # Project Proposal
 
 ## Overview 
-**Project name:** EscapeContainer
+**Project name:** EscapeContainer  
 **Description:** A script that automatically fingerprints a Docker container for common escape vectors and reports exactly which vector would successfully allow a breakout.
 
 **Objectives:**
