@@ -1,12 +1,16 @@
 # Project Proposal
 
 ## Overview 
-**Project name:**  
-**Description:**  
+**Project name:** EscapeContainer
+**Description:** A script that automatically fingerprints a Docker container for common escape vectors and reports exactly which vector would successfully allow a breakout.
 
-**Objectives:**  
+**Objectives:**
+- Relatively small executable file/script/binary
+- Fingerprints common escape vectors
+- Generates a report based on which vectors allow a breakout
 
 **Success criteria:**  
+Running the script will automatically generate a breakout report.
 
 **Start Date:** August 27th, 2026  
 **End Date:** December 5th, 2026  
