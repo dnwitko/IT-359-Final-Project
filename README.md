@@ -30,8 +30,7 @@ Running the script will automatically generate a breakout report.
 ## Timeline 
 **Milestones with key dates and deliverables:**  
 1. Project Proposal/Plan - August 27, 2026
-
-6. Submit Project - First week of December
+2. Submit Project - First week of December
 
  ## Risk Management 
 **Identified risks with impact/probability assessments:**  
@@ -40,13 +39,15 @@ Running the script will automatically generate a breakout report.
 **Budget Allocation:**  
 
 **Required Tools and Technology:**  
+- Docker
 
 **Project Dependencies:**  
 
 ## Communication  
 **Meeting Cadence and Reporting Frequency:**  
 
-**Communication Channels:**   
+**Communication Channels:**  
+Discord, Microsoft Outlook, Microsoft Teams
 
 ## Action Items  
 
