@@ -1,2 +1,49 @@
-# IT-359-Final-Project
-IT 359 - Final Project
+# Project Proposal
+
+## Overview 
+**Project name:**  
+**Description:**  
+
+**Objectives:**  
+
+**Success criteria:**  
+
+**Start Date:** August 27th, 2026  
+**End Date:** December 5th, 2026  
+  
+## Stakeholders 
+**Sponsor designation:**  
+
+**Stakeholder list (with assigned roles and responsibilities):**  
+
+## Scope Management 
+**In-scope items:**  
+
+**Out-of-scope items:** 
+
+**Project assumptions and constraints:**  
+
+## Timeline 
+**Milestones with key dates and deliverables:**  
+1. Project Proposal/Plan - August 27, 2026
+
+6. Submit Project - First week of December
+
+ ## Risk Management 
+**Identified risks with impact/probability assessments:**  
+
+ ## Resources 
+**Budget Allocation:**  
+
+**Required Tools and Technology:**  
+
+**Project Dependencies:**  
+
+## Communication  
+**Meeting Cadence and Reporting Frequency:**  
+
+**Communication Channels:**   
+
+## Action Items  
+
+## References  
