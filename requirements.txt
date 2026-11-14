@@ -1,0 +1,5 @@
+# EscapeContainer dependencies
+#
+# colorama is OPTIONAL — the tool degrades gracefully to plain text if it is
+# absent. Everything else used by the tool is in the Python standard library.
+colorama==0.4.6
