@@ -108,7 +108,6 @@ Save an HTML report you can open in a browser:
 
 ```bash
 python3 src/escape_container.py --html report.html
-xdg-open report.html
 ```
 
 Other options:
