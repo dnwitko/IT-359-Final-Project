@@ -5,7 +5,7 @@ an attacker break out of the container and reach the host.
 
 ## Purpose
 
-Most container escapes don't require a clever exploit — they're possible because of
+Most container escapes don't require a clever exploit; they're possible because of
 how the container was started: a `--privileged` flag, a mounted Docker socket, an
 over-broad capability, a writable kernel path. EscapeContainer checks a running
 container for these conditions and reports which ones are present and how serious
@@ -16,8 +16,8 @@ known escape-related checks, grouped into 13 categories, and produces a report.
 For each issue it finds, the report shows what it saw, why that issue could allow
 an escape, and how to fix it.
 
-It only reads and reports — it never tries to perform an escape and never changes
-anything — so it is safe to run in environments where an actual exploit attempt
+It only reads and reports; it never tries to perform an escape and never changes
+anything, so it is safe to run in environments where an actual exploit attempt
 would not be acceptable.
 
 ## What it checks
@@ -44,10 +44,10 @@ At a high level they fall into these categories:
 ## Requirements
 
 EscapeContainer runs on **Python 3.9 or newer** and uses only the Python standard
-library — there are no required third-party packages.
+library. There are no required third-party packages.
 
 The one optional extra is **colorama**, which adds color to the terminal output.
-Without it, the tool still works and prints in plain text.
+Without it, the tool still works fine and prints in plain text.
 
 ```bash
 pip install -r requirements.txt   # optional: installs colorama for colored output
@@ -62,7 +62,7 @@ git clone https://github.com/dnwitko/IT-359-Final-Project.git
 cd IT-359-Final-Project
 ```
 
-If you're already inside the container you want to check, run it directly from the shell:
+If you're already inside the container you want to check, you can run it directly from the shell:
 
 ```bash
 python3 src/escape_container.py
@@ -89,7 +89,7 @@ python3 src/escape_container.py
 
 Show only the most serious issues. A large or privileged container can trigger many
 minor findings, so `--min-severity` limits the report to findings at or above a
-chosen level — for example, only high and critical:
+chosen level, for example, only high and critical:
 
 ```bash
 python3 src/escape_container.py --min-severity high
@@ -128,3 +128,7 @@ EscapeContainer checks how a container is configured. It does **not** scan for
 vulnerabilities in the software running inside the container, it does **not**
 attempt any exploit, and it does **not** change anything on the host or in the
 container.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
